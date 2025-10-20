@@ -6,7 +6,7 @@ O projeto SAGE tem como objetivo facilitar o agendamento de espaços no IFAL –
 - `src/` - Código-fonte do software
 - `assets/` - Imagens e diagramas do projeto
 
-#Documentação:
+# Documentação:
 - [Casos de Uso](docs/casos_de_uso.md)
 - [Requisitos](docs/requisitos.md)
 - [Histórias de Usuário](docs/historias_usuario.md)
