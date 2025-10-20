@@ -40,4 +40,4 @@ Ao acessar cada aba, devem aparecer apenas os locais correspondentes àquela cat
 O sistema deve exibir, junto ao status “recusado”, o motivo informado pelo responsável da análise.
 O coordenador/diretor ou funcionário do apoio deve ter um campo obrigatório para preencher o motivo da recusa.
 O sistema deve exibir etiquetas visuais (ex.: verde = aprovado, vermelho = recusado, amarelo = em análise) em cada solicitação.
-As etiquetas devem ser atualizadas automaticamente conforme a decisão sobre a reserva.
+As etiquetas devem ser atualizadas automaticamente conforme a decisão sobre a reserva. 
