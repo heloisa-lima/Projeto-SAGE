@@ -1,43 +1,31 @@
-# Critérios de aceitação
-O sistema deve exibir uma lista com todos os locais cadastrados
-Os espaços já reservados devem aparecer como indisponíveis
-O sistema deve identificar quando uma nova reserva for feita. 
-O sistema deve enviar uma notificação para o cadastro do funcionário no aplicativo
-O sistema deve identificar, por meio do cadastro do usuário, se a pessoa é um professor
-Caso o usuário que solicitou a reserva seja um professor, o sistema deve priorizar
-O sistema deve permitir ao funcionário aceitar ou recusar
-O funcionário deve ter acesso ao nome e às informações da reserva para poder aceitar ou recusar. 
-O sistema deve permitir preencher os campos obrigatórios de motivo, data e horário da reserva. 
-O sistema deve validar se todos os campos foram preenchidos antes de confirmar a solicitação
-O  professor consegue alterar ou excluir apenas as reservas feitas por ele.
-Ao editar ou cancelar, a disponibilidade do espaço é atualizada.
-O monitor consegue alterar ou excluir apenas as reservas feitas por ele.
-O membro do grêmio consegue alterar ou excluir apenas as reservas feitas por ele.
-O coordenador/diretor consegue aprovar ou recusar pedidos.
-O solicitante é informado automaticamente da decisão.
-O sistema deve exibir o status atualizado de cada reserva feita pelo professor.
-O status deve mudar automaticamente após análise da solicitação.
-O acesso só é permitido com credenciais institucionais válidas.
-Caso a senha ou e-mail estejam incorretos, o sistema não permite o login
-O sistema deve registrar a data, horário, nome do local, número da chave e nome do responsável.
-O sistema deve permitir marcar a devolução da chave com horário e confirmação.
-O sistema deve exibir a agenda do monitor vinculada à sala específica.
-Caso outro usuário tente reservar nesse mesmo horário, o sistema deve indicar indisponibilidade.
-O sistema deve armazenar todas as reservas realizadas com data, horário e responsável.
-O funcionário deve poder filtrar o histórico por sala, usuário ou período
-O sistema deve gerar relatórios com número de reservas por espaço e por tipo de usuário (professor, monitor, grêmio).
-O relatório deve estar disponível em formato digital (PDF)
-O sistema deve enviar uma notificação automática ao professor quando houver decisão sobre a reserva.
-A notificação deve indicar claramente se a reserva foi aprovada ou reprovada
-O sistema deve enviar uma notificação automática ao monitor quando houver decisão sobre a reserva.
-O sistema deve enviar uma notificação automática ao membro do grêmio quando houver decisão sobre a reserva.
-O sistema deve exibir a agenda do professor vinculada ao espaço específico.
-Caso outro usuário tente reservar nesse mesmo horário, o sistema deve indicar indisponibilidade.
-O sistema deve permitir preencher os campos obrigatórios de motivo, data e horário da reserva.
-O sistema deve validar se todos os campos foram preenchidos antes de confirmar a solicitação.
-O sistema deve exibir as categorias de espaços em abas distintas (salas, laboratórios, auditórios e quadra).
-Ao acessar cada aba, devem aparecer apenas os locais correspondentes àquela categoria.
-O sistema deve exibir, junto ao status “recusado”, o motivo informado pelo responsável da análise.
-O coordenador/diretor ou funcionário do apoio deve ter um campo obrigatório para preencher o motivo da recusa.
-O sistema deve exibir etiquetas visuais (ex.: verde = aprovado, vermelho = recusado, amarelo = em análise) em cada solicitação.
-As etiquetas devem ser atualizadas automaticamente conforme a decisão sobre a reserva.
+# Histórias de Usuário
+- Como funcionária do apoio, eu gostaria de visualizar os locais disponíveis para reservar e organizar melhor o uso dos espaços.
+- Como funcionária do apoio/direção e coordenação, eu gostaria de receber notificações no aplicativo quando houver novas solicitações de reserva para me manter informada e acompanhar as demandas.
+- Como funcionária do apoio, eu gostaria de ver as reservas feitas no dia para organizar minhas atividades.
+- Como funcionária do apoio, eu gostaria que o sistema priorizasse a reserva de um professor para que este possa realizar suas atividades da melhor forma. 
+- Como funcionária do apoio, eu gostaria de poder aceitar ou recusar uma solicitação de reserva para garantir maior controle dos espaços.
+- Como funcionária do apoio, eu gostaria de adicionar nas reservas o motivo, a data e o horário para que o sistema possa aceitar minha reserva.
+- Como professor, eu quero poder editar ou cancelar uma reserva para evitar conflitos em uma reserva.
+- Como monitor, eu quero poder editar ou cancelar uma reserva para evitar conflitos em uma reserva.
+- Como membro do grêmio, eu quero poder editar ou cancelar uma reserva para evitar conflitos em uma reserva.
+- Como coordenador/diretor, eu gostaria de poder aprovar ou recusar as reservas da quadra e do auditório pelo sistema para garantir maior controle dos espaços.
+- Como professor, eu quero poder visualizar o andamento do meu pedido de reserva (análise, aprovado ou recusado) para me manter informado.
+- Como monitor, eu quero poder visualizar o andamento do meu pedido de reserva (análise, aprovado ou recusado) para me manter informado.
+- Como membro do grêmio, eu quero poder visualizar o andamento do meu pedido de reserva (análise, aprovado ou recusado) para me manter informado. 
+- Como usuário do sistema, eu quero fazer login com meu e-mail institucional e senha para que o sistema tenha o meu cadastro e atenda às minhas demandas.
+- Como funcionária do apoio, eu quero registrar retirada e devolução de chaves (com dados do responsável) para melhor segurança. 
+- Como monitor, eu gostaria de visualizar no sistema os horários fixos da minha sala para organizar minhas atividades.
+- Como funcionária do apoio, eu gostaria de ter acesso a um histórico de reservas passadas para realizar conferências quando necessário.
+- Como coordenador, gostaria de visualizar relatórios mensais de utilização dos espaços para acompanhar e avaliar o uso das salas.
+- Como professor, eu quero receber uma notificação no aplicativo caso a minha reserva for aprovada ou recusada para me manter informado.
+- Como monitor, eu quero receber uma notificação no aplicativo caso a minha reserva for aprovada ou recusada para me manter informado.
+- Como membro do grêmio, eu quero receber uma notificação no aplicativo caso a minha reserva seja aprovada ou recusada para me manter informado. 
+- Como professor, eu gostaria de visualizar no sistema os horários fixos da minha sala de aula/laboratório para maior organização do meu tempo.
+- Como professor, eu gostaria de adicionar nas reservas o motivo, a data e o horário para que o sistema possa aceitar minha reserva.
+- Como monitor, eu gostaria de adicionar nas reservas o motivo, a data e o horário para que o sistema possa aceitar minha reserva.
+- Como membro do grêmio, gostaria de adicionar nas reservas o motivo, a data e o horário para que o sistema possa aceitar minha reserva.
+- Como funcionária do apoio, eu gostaria que tivesse abas para separar salas, laboratórios, auditórios e quadra para uma melhor visualização e organização. 
+- Como professor, eu gostaria de saber o motivo caso a minha reserva seja recusada para entender o motivo e tentar realizar a reserva de outro espaço. 
+- Como monitor, eu gostaria de saber o motivo caso a minha reserva seja recusada para entender o motivo e tentar realizar a reserva de outro espaço.  
+- Como membro do grêmio, eu gostaria de saber o motivo caso a minha reserva seja recusada para entender o motivo e tentar realizar a reserva de outro espaço. 
+- Como funcionária do apoio, eu gostaria que houvesse “etiquetas” para identificar quais pedidos já foram aprovados, recusados e os que estão em análise para maior organização do meu tempo.
