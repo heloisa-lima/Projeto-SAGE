@@ -155,3 +155,7 @@ Critério: O sistema deve exibir etiquetas visuais (ex.: verde = aprovado,
 vermelho = recusado, amarelo = em análise) em cada solicitação.
 Critério: As etiquetas devem ser atualizadas automaticamente conforme a
 decisão sobre a reserva.
+
+# História 30
+Critério: O sistema deve permitir preencher os campos obrigatórios de motivo, data e horário da reserva. 
+Critério: O sistema deve validar se todos os campos foram preenchidos antes de confirmar a solicitação.
