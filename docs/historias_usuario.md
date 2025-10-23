@@ -86,3 +86,6 @@ Como membro do grêmio, eu gostaria de saber o motivo caso a minha reserva seja 
 
 # História 29
 Como funcionária do apoio, eu gostaria que houvesse “etiquetas” para identificar quais pedidos já foram aprovados, recusados e os que estão em análise para maior organização do meu tempo.
+
+# História 30
+Como funcionária do apoio, eu gostaria de adicionar nas reservas o motivo, a data e o horário para que o sistema possa aceitar minha reserva.
